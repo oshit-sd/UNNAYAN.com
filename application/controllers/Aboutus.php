@@ -25,15 +25,6 @@ class Aboutus extends CI_Controller
 	}
 
 
-	/*==================Nothing File==========================*/
-	public function add_aboutusd_aboutus()
-	{	
-		$data['fatchAllData'] = $this->About_model->all_about_text();
-		$data['content'] = 'about/addAbout';
-		$this->load->view('dashboard_layout', $data);
-	}
-
-
 	/*====================================================================*/
 	public function add_aboutus()
 	{	
