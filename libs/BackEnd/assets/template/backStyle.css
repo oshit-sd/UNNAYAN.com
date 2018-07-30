@@ -1,0 +1,29 @@
+.skin-blue .sidebar-menu>li.header {
+    color: #00b1ff;
+    background: #1a2226;
+    border-bottom: 1px solid #075479;
+}
+.alert a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content-wrapper {
+    background-color: #ffffff;
+    z-index: 800;
+}
+.TenderListView th, TenderNotice th{
+    text-align: center;
+    vertical-align: top !important;
+}
+.content-header>.breadcrumb {
+    float: left;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 35px;
+    right: auto;
+    border-radius: 2px;
+}
